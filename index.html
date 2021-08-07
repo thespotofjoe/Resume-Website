@@ -52,10 +52,10 @@
         
         <header>
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg justify-content-between navbar-dark bg-primary ">
+            <nav class="navbar navbar-expand-xl justify-content-between navbar-dark bg-primary ">
                 <div class="container">
                     <a class="navbar-brand" href="#"><b>Joe Buchoff</b> Frontend Web Developer</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 
@@ -63,6 +63,9 @@
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#flaws">Flaws</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#skills">Skills</a>
@@ -110,7 +113,7 @@
         </section>
 
         <!-- Skills Section -->
-        <section class="container bg-primary mt-4">
+        <section class="container bg-primary mt-4 d-flex">
             <div class="col-3">
                 <h1 class="display-6 text-light">Skills</h1>
             </div>
@@ -141,8 +144,27 @@
             </div>
         </section>
             
-
-
+        <!-- Experience Section -->
+        <section class="container bg-light mt-4 d-flex">
+            <div class="col-3">
+                <h1 class="display-6 text-dark">Experience</h1>
+            </div>
+            <div class="col-9">
+                <ul>
+                    <li class="text-dark">
+                        React Native Frontend Engineer
+                    </li>
+                    <li class="text-dark">
+                        President of Rutgers Python Club
+                    </li>
+                    <li class="text-dark">
+                        Student Ambassador
+                    </li>
+                    <li class="text-dark">
+                        IT Help Desk Associate
+                    </li>
+                </ul>
+        </section>
 
         <!-- Modal for Call Me Button -->
         <div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalLabel" aria-hidden="true">
@@ -165,6 +187,7 @@
         </div>
 
         <!-- Bootstrap Scripts -->
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </body>
     
