@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        
+        <!-- Extra CSS-->
+        <style>
+            html
+            {
+                font-size: 0.8rem;
+            }
+
+            /* Responsive Text Sizes */
+            @media (min-width: 576px)
+            { 
+                html
+                {
+                    font-size: 0.8rem;
+                }
+            }
+            @media (min-width: 768px)
+            { 
+                html
+                {
+                    font-size: 1rem;
+                }
+            }
+
+            @media (min-width: 992px)
+            { 
+                html
+                {
+                    font-size: 1.1rem;
+                }
+            }
+            @media (min-width: 1200px)
+            { 
+                html
+                {
+                    font-size: 1.2rem;
+                }
+            }
+        </style>
+
+        <title>Joe Buchoff - Frontend Web Developer</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg justify-content-between navbar-dark bg-primary ">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><b>Joe Buchoff</b> Frontend Web Developer</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#source">Source</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="nav-item btn btn-outline-light" role="button">Schedule an interview</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- First Section -->
+        <section class="container mt-3">
+            <div class="d-flex">
+                <div class="col-3">
+
+                    <!-- Caricature Image -->
+                    <img src="./Images/Face-Only.png" alt="" class="img-fluid">
+
+                    <!-- Flex Container for both buttons -->
+                    <div class="d-flex justify-content-around">
+                        <div class="d-grid d-md-block gap-2">
+
+                            <!-- "Call Me" Button, Triggers Modal -->
+                            <button type="button" class="btn btn-primary align-self-start" data-bs-toggle="modal" data-bs-target="#callModal">
+                                Call Me
+                            </button>
+
+                            <!-- "Email Me" Button, mailto: link -->
+                            <a href="mailto:joebuchoff@gmail.com" class="btn btn-primary align-self-start" role="button">Email Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 align-self-center"><h1 class="display-4">Joseph Buchoff</h1><br><h1 class="display-6">Frontend Web Dev</h1></div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="container bg-primary mt-4">
+            <div class="col-3">
+                <h1 class="display-6 text-light">Skills</h1>
+            </div>
+            <div class="col-9">
+                <ul>
+                    <li class="text-light">
+                        Bootstrap
+                    </li>
+                    <li class="text-light">
+                        React
+                    </li>
+                    <li class="text-light">
+                        React Native
+                    </li>
+                    <li class="text-light">
+                        Git
+                    </li>
+                    <li class="text-light">
+                        Github
+                    </li>
+                    <li class="text-light">
+                        Adobe Photoshop
+                    </li>
+                    <li class="text-light">
+                        Adobe Illustrator
+                    </li>
+                </ul>
+            </div>
+        </section>
+            
+
+
+
+        <!-- Modal for Call Me Button -->
+        <div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="callModalLabel">Call Joe</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        512.808.3108
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
+
