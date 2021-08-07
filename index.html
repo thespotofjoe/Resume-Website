@@ -179,6 +179,14 @@
                 </ul>
         </section>
 
+        <!-- Source Code Section -->
+        <section class="container bg-light mt-4 d-flex justify-content-center">
+            <!-- "Show Source Code" Button, Triggers Modal -->
+            <button type="button" class="btn btn-primary align-self-start" data-bs-toggle="modal" data-bs-target="#sourceCodeModal">
+                Show Source
+            </button>
+        </section>
+
         <!-- Modal for Call Me Button -->
         <div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -191,6 +199,26 @@
                     </div>
                     <div class="modal-body">
                         512.808.3108
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Source Code Button -->
+        <div class="modal fade" id="sourceCodeModal" tabindex="-1" role="dialog" aria-labelledby="sourceCodeLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="sourceCodeLabel">Source Code</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Source code will go here.
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
