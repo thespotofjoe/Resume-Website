@@ -48,43 +48,44 @@
         <title>Joe Buchoff - Frontend Web Developer</title>
     </head>
 
-    <body>
+    <body class="pt-4">
         
-        <header>
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-xl justify-content-between navbar-dark bg-primary ">
-                <div class="container">
-                    <a class="navbar-brand" href="#"><b>Joe Buchoff</b> Frontend Developer</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#experience">Experience</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#education">Education</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/thespotofjoe/Resume-Website" target="_blank" rel="noopener noreferrer">Source</a>
-                            </li>
-                        </ul>
-                        <a href="#" class="nav-item btn btn-outline-light" role="button">Schedule an interview</a>
-                    </div>
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl justify-content-between navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><b>Joe Buchoff</b> Frontend Developer</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/thespotofjoe/Resume-Website" target="_blank" rel="noopener noreferrer">Source</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="nav-item btn btn-outline-light" role="button">Schedule an interview</a>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+       
 
         <!-- First Section -->
-        <section class="container mt-3 p-4">
+        <div id="top"></div>
+        <section class="container mt-4 p-4">
             <div class="d-flex">
                 <div class="col-3">
 
@@ -108,9 +109,10 @@
                 <div class="col-9 align-self-center"><h1 class="display-4">Joseph Buchoff</h1><br><h1 class="display-6">Frontend Dev</h1></div>
             </div>
         </section>
-
+    
         <!-- Skills Section -->
-        <section class="container bg-primary p-4 d-flex">
+        <div id="skills"></div>
+        <section class="container bg-primary mt-5 p-4 d-flex" x>
             <div class="col-3">
                 <h1 class="display-6 text-light">Skills</h1>
             </div>
@@ -151,7 +153,8 @@
         </section>
             
         <!-- Experience Section -->
-        <section class="container bg-light p-4 d-flex">
+        <div id="experience"></div>
+        <section class="container bg-light mt-5 p-4 d-flex">
             <div class="col-3">
                 <h1 class="display-6 text-dark">Experience</h1>
             </div>
@@ -235,7 +238,8 @@
         </section>
 
         <!-- Education Section -->
-        <section class="container bg-primary p-4 d-flex">
+        <div id="education"></div>
+        <section class="container bg-primary mt-5 p-4 d-flex">
             <div class="col-3">
                 <h1 class="display-6 text-light">Education</h1>
             </div>
